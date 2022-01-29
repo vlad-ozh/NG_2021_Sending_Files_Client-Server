@@ -62,8 +62,8 @@ Thumbs.db
 # MinGW generated files
 *.Debug
 *.Release
-build-Server-Desktop_Qt_5_15_2_MinGW_64_bit-Debug
-build-Client-Desktop_Qt_5_15_2_MinGW_64_bit-Debug
+build-Recipient-server-Desktop_Qt_5_15_2_MinGW_64_bit-Debug
+build-Sender-client-Desktop_Qt_5_15_2_MinGW_64_bit-Debug
 
 # Python byte code
 *.pyc
