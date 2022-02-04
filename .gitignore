@@ -34,6 +34,7 @@ Thumbs.db
 *.rc
 /.qmake.cache
 /.qmake.stash
+NG_2021_Sending_Files_Client-Server
 
 # qtcreator generated files
 *.pro.user*
