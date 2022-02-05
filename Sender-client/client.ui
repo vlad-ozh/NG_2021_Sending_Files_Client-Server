@@ -192,6 +192,9 @@
            </layout>
           </item>
           <item>
+           <widget class="QTextEdit" name="te_input"/>
+          </item>
+          <item>
            <widget class="QPushButton" name="bSend">
             <property name="text">
              <string>Send</string>

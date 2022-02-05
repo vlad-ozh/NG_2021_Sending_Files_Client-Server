@@ -2,6 +2,10 @@
 #define CLIENT_H
 
 #include <QMainWindow>
+#include <QFileDialog>
+#include <QTcpSocket>
+#include <QHostAddress>
+#include <QDataStream>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Client; }
@@ -17,5 +21,20 @@ public:
 
 private:
     Ui::Client *ui;
+    QTcpSocket *mSocket;
+    QString filePath;
+
+private slots:
+    void onFindPressed();
+    void onSendPressed();
+
+    void connected();
+    void disconnected();
+    void doConnection();
+
+
+//    void send();
+//    void received();
+
 };
 #endif // CLIENT_H
